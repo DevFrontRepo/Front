@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import { CssBaseline } from '@mui/material';
 import { ToastContainer } from 'react-toastify';
-import Login from './pages/Auth/Login'
-import Register from './pages/Auth/RegisterVendor';
-import RegisterClient from './pages/Auth/RegisterClient';
-import VerifyMail from './pages/Auth/VerifyMail'
+import Login from './pages/Login/Login'
+import Register from './pages/Login/RegisterVendor';
+import RegisterClient from './pages/Login/RegisterClient';
+import VerifyMail from './pages/Login/VerifyMail'
 import HomePage from './pages/HomePage';
 import Popular from './pages/Popular';
 import Localisation from './pages/Localisation';
-import ForgetPassword from './pages/Auth/ForgotPassword';
+import ForgetPassword from './pages/Login/ForgotPassword';
 import Layout from './components/Layout';
 
 

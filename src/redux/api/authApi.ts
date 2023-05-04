@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import   {Login}   from '../../pages/Auth/Login';
-import  { RegisterClient }  from '../../pages/Auth/RegisterClient';
-import  { RegisterVendor }  from '../../pages/Auth/RegisterVendor';
+import   {Login}   from '../../pages/Login/Login';
+import  { RegisterClient }  from '../../pages/Login/RegisterClient';
+import  { RegisterVendor }  from '../../pages/Login/RegisterVendor';
 import { IGenericResponse } from './types'
 import { userApi } from './userApi';
 
